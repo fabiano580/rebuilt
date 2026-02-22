@@ -24,7 +24,7 @@ public final class Constants {
 
     public static final int CLIMBER = 11;
 
-    public static final int TURRET = 0; // fix later
+    public static final int TURRET = 0; // mudar dps
   }
 
   public static final class Limelight {
