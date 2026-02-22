@@ -55,9 +55,6 @@ public class TurretSubsystem extends SubsystemBase {
     double output = turnPID.calculate(tx);
     output = MathUtil.clamp(output, -Constants.Turret.OUTPUT_LIMIT, Constants.Turret.OUTPUT_LIMIT);
 
-    // Se girar pro lado errado:
-    // output = -output;
-
     turretMotor.set(output);
   }
 
